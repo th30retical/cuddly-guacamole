@@ -2,9 +2,9 @@
 $(function() {
   $('.logo').on('click', function() {
     // for browser support take out /www
-    $.mobile.changePage('../www/menu.html', {
+    $.mobile.changePage('../menu.html', {
       transition: 'slide',
-      changeHash: false
+      type:'post'
     });
   })
 });
